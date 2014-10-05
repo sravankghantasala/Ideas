@@ -8,7 +8,7 @@ public class Fibonacci_rec {
      * @return
      */
     public static int get_input(){
-        System.out.println("How many numbers you want fibonacci series ? ... ");
+        System.out.print("How many numbers you want fibonacci series ? ... ");
         return (Integer.parseInt(System.console().readLine()));
     }
 

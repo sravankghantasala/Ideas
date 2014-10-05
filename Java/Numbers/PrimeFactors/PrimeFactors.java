@@ -40,7 +40,6 @@ public class PrimeFactors {
     // Main Method
     public static void main(String[] args) {
         int num = get_input();
-//        List <Integer> factors =
         System.out.print("Prime factors for " + num + " are ... ");
         for (int i : get_factors(num)){
             if (is_prime(i)) System.out.print(i + " ");
