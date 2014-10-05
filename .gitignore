@@ -3,6 +3,8 @@
 
 #eclipse related 
 .metadata
+bin
+*.classpath
 
 # Gvim related
 *.swp
