@@ -1,0 +1,23 @@
+# gitignore it self
+# .gitignore
+
+#eclipse related 
+.metadata
+
+# Gvim related
+*.swp
+
+# Temporary files
+*~
+
+# Java Related
+*.class
+
+# Aptana related
+.pydevproject
+.project
+
+# intellij Idea related
+*.iml
+.idea
+
