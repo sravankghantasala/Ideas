@@ -12,7 +12,8 @@ public class UnitConverter {
         Scanner S = new Scanner(System.in );
         System.out.print("Conversions available ... \n\t" +
                 "1. Temperature\n\t" +
-                "2. Memory\n" +
+                "2. Memory\n\t" +
+                "3. Distance\n" +
                 "Please select a conversion ... ");
         int conversion = S.nextInt();
         switch (conversion) {
@@ -21,6 +22,9 @@ public class UnitConverter {
                 break;
             case 2 :
                 Memory.convert();
+                break;
+            case 3:
+                Distance.convert();
                 break;
             default:
                 System.out.println("No such conversion available ... \nExiting ... \n");
