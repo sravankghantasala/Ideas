@@ -21,6 +21,8 @@ public class Utilities {
     }
 
     public static String get_metric (ArrayList<String> metrics) {
+        System.out.print("Please enter the Metric ..." + metrics + " ... ");
+//        System.out.println(metrics);
         while (true) {
             String metric = S.nextLine().toUpperCase();
             if (metrics.contains(metric)) return metric;

@@ -10,22 +10,33 @@ public class UnitConverter {
     // Main Method
     public static void main(String[] args) {
         Scanner S = new Scanner(System.in );
+<<<<<<< HEAD
+        System.out.println("Conversions available ... \n\t" +
+                "1. Temperature\n\t" +
+                "2. Memory\n\t" +
+=======
         System.out.print("Conversions available ... \n\t" +
                 "1. Temperature\n\t" +
                 "2. Memory\n\t" +
                 "3. Distance\n" +
+>>>>>>> 1bf372b5f6a171baeb1871efccc570df97ff216c
                 "Please select a conversion ... ");
         int conversion = S.nextInt();
         switch (conversion) {
             case 1 :
                 Temperature.convert();
                 break;
+<<<<<<< HEAD
+            case 2:
+                Memory.convert();
+=======
             case 2 :
                 Memory.convert();
                 break;
             case 3:
                 Distance.convert();
                 break;
+>>>>>>> 1bf372b5f6a171baeb1871efccc570df97ff216c
             default:
                 System.out.println("No such conversion available ... \nExiting ... \n");
         }
