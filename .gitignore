@@ -18,6 +18,7 @@ bin
 # Aptana related
 .pydevproject
 .project
+__pycache__
 
 # intellij Idea related
 *.iml
