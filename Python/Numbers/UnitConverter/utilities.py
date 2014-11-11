@@ -4,16 +4,16 @@ Created on 11-Oct-2014
 @author: ghantasa
 '''
 def get_input (unit, metrics):
-    value = input('Please enter the ' + unit + ' ... ')
+    value = float(input('Please enter the ' + unit + ' ... '))
     while (True):
-        metric = input ('Please select the metric [ ' + ','.join(metrics) + '] ... ')
-        if metric.upper() in metrics : break
+        metric = input ('Please select the metric [ ' + ','.join(metrics) + ' ] ... ').upper()
+        if metric in metrics : break
         else : print('There is not such metric! ')
     
     while (True):
         print_conversions(metrics, metric)
-        target = input ('Please enter a target metric for conversion ... ')
-        if target.upper() in metrics : break
+        target = input ('Please enter a target metric for conversion ... ').upper()
+        if target in metrics : break
         else : print('There is no such metric! ')
         
     return  (value, metric, target)

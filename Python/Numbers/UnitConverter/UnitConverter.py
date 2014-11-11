@@ -5,6 +5,9 @@ Created on 11-Oct-2014
 '''
 
 from Temperature import Temperature
+from Distance import Distance
+from Memory import Memory
+from Weight import Weight
 
 if __name__ == '__main__':
     while (True):
@@ -19,11 +22,14 @@ if __name__ == '__main__':
             t = Temperature()
             t.convert()
         elif choice == '2' :
-            convertDistance ()
+            d = Distance()
+            d.convert()
         elif choice == '3':
-            convertMemoory()
+            m = Memory()
+            m.convert()
         elif choice == '4' :
-            convertWeight()
+            w = Weight()
+            w.convert()
         else:
             print('Exiting now ... Bye!')
             break
