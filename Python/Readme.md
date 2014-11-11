@@ -15,9 +15,9 @@ Find Cost of Tile to Cover W x H Floor - Calculate the total cost of tile it wou
 
 Mortgage Calculator - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
-Change Return Program - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+* Change Return Program - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-Binary to Decimal and Back Converter - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+* Number base Converter - Develop a converter to convert a number from one base to another base.
 
 * Calculator - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
